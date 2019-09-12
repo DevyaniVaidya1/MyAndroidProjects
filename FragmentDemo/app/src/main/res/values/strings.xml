@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FragmentDemo</string>
+    <string name="this_is_fragment_check_logcat">This Is Fragment Check Logcat</string>
+    <string name="activity_text">Activity Text!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank testFragment</string>
+    <string name="c_to_f">C to F</string>
+</resources>

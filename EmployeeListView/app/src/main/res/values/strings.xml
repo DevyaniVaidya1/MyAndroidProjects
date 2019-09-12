@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EmployeeListView</string>
+    <string name="name">Name</string>
+    <string name="city">City</string>
+    <string name="number">Number</string>
+    <string name="salary">Salary</string>
+</resources>

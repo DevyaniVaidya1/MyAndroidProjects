@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+    <string name="second_text">Second Activity</string>
+    <string name="attemt">Num of incorrect attempt Remaining :</string>
+    <string name="register">New User? Sign Up</string>
+</resources>

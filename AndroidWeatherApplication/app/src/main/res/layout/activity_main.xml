@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_main_constraint"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.martinruiz.myapplication.activities.MainActivity"
+    >
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="409dp"
+        android:layout_height="719dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container_main_constraint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/container_main_constraint"
+        app:layout_constraintVertical_bias="0.0">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-64dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewWeatherCards"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F2F2F2"
+                android:scrollbars="vertical" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    </FrameLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAddCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_white_24px"
+        tools:layout_editor_absoluteY="455dp"
+        tools:layout_editor_absoluteX="328dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:fabSize="normal"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_settings_applications_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/fabAddCity"
+        app:layout_constraintEnd_toEndOf="@+id/fabAddCity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fabAddCity" />
+
+
+    <FrameLayout
+        android:id="@+id/setting_fragment_container"
+        android:layout_width="287dp"
+        android:layout_height="364dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/main_container" />
+
+
+</android.support.constraint.ConstraintLayout>

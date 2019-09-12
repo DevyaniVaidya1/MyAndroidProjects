@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MyListView</string>
+
+    <string-array name="main_title">
+        <item>Android Interview</item>
+        <item>Java Interview</item>
+        <item>C Interview</item>
+        <item>C++ Interview</item>
+        <item>Servlet Interview</item>
+        <item>Jsp Interview</item>
+        <item>Spring Interview</item>
+        <item>Hibernate Interview</item>
+        <item>AngularJs Interview</item>
+        <item>NodeJs Interview</item>
+    </string-array>
+
+    <string-array name="sub_title">
+        <item>1.Q What is Listview ReadMore...</item>
+        <item>1.Q Is Java Pure ReadMore...</item>
+        <item>What is C ReadMore...</item>
+        <item>1.Q What is c++ ReadMore...</item>
+        <item>1.Q What is Servlet ReadMore...</item>
+        <item>1.Q What is Jsp ReadMore...</item>
+        <item>1.Q What is Spring ReadMore...</item>
+        <item>1.Q What is Hibernate ReadMore...</item>
+        <item>1.Q What is AngularJs ReadMore...</item>
+        <item>1.Q What is NodeJs ReadMore...</item>
+    </string-array>
+
+    <string-array name="version_title">
+        <item>15.6</item>
+        <item>175.6</item>
+        <item>185.6</item>
+        <item>195.6</item>
+        <item>105.6</item>
+        <item>15.6</item>
+        <item>1.5.6</item>
+        <item>1.5</item>
+        <item>19.6</item>
+        <item>17.6</item>
+    </string-array>
+    <string-array name="image_title">
+        <item>@drawable/android</item>
+        <item>@drawable/java</item>
+        <item>@drawable/c</item>
+        <item>@drawable/cn</item>
+        <item>@drawable/servlet</item>
+        <item>@drawable/jsp</item>
+        <item>@drawable/spring</item>
+        <item>@drawable/hibernate</item>
+        <item>@drawable/angular</item>
+        <item>@drawable/nodejsp</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_64"
+        android:background="@color/drakgrey"
+        android:contentDescription="@string/app_name"
+        android:gravity="center_vertical"
+        android:padding="@dimen/padding_dialog_title"
+        android:scaleType="center"
+        android:text="@string/add_city_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_19" />
+
+    <ProgressBar
+        android:id="@+id/loading_add_city"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="@dimen/dialog_height"
+        android:layout_height="@dimen/dialog_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/default_margin"
+        android:gravity="center"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_4_dp"
+        android:layout_marginTop="@dimen/dialog_top_16_dp"
+        android:layout_marginRight="@dimen/margin_4_dp"
+        android:layout_marginBottom="@dimen/margin_4_dp"
+        android:hint="@string/city"
+        android:inputType="textEmailAddress" />
+
+</LinearLayout>

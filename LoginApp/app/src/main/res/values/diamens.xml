@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextSize">32sp</dimen>
+    <dimen name="Textpadding">10sp</dimen>
+    <dimen name="margin">15dp</dimen>
+<dimen name="TextSizeRegister">20sp</dimen>
+</resources>

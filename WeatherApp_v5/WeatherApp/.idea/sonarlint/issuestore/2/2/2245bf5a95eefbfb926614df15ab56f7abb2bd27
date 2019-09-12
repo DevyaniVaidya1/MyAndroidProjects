@@ -1,0 +1,34 @@
+
+–squid:S1319û"rThe type of the "intList" object should be an interface such as "List" rather than the implementation "ArrayList".(¼Ë¶üÿÿÿÿ8öûÂøÍ-
+hsquid:S4042Œ"IUse "java.nio.Files#delete" here for better messages on error conditions.(¥Ç¼Ö8öûÂøÍ-
+jsquid:CommentedOutCodeLineÏ"<This block of commented-out lines of code should be removed.(ÎĞ¨ú8öûÂøÍ-
+Ssquid:S1066"/Merge this if statement with the enclosing one.(Îšôşÿÿÿÿ8öûÂøÍ-
+™squid:S1319¨"uThe type of the "doubleList" object should be an interface such as "List" rather than the implementation "ArrayList".(„Ÿ¤øÿÿÿÿ8öûÂøÍ-
+”squid:S1319À"uThe type of the "stringList" object should be an interface such as "List" rather than the implementation "ArrayList".(â»í·8öûÂøÍ-
+Gsquid:S1148¹"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8öûÂøÍ-
+Nsquid:S1066ƒ"/Merge this if statement with the enclosing one.(ºó¢Š8öûÂøÍ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Í›¸ıÿÿÿÿ8öûÂøÍ-
+”squid:S1319©"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(é¯Šûûÿÿÿÿ8öûÂøÍ-
+xsquid:S2293Ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰«×õ8öûÂøÍ-
+}squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(û»Åİùÿÿÿÿ8öûÂøÍ-
+asquid:S1126Ã"BReplace this if-then-else statement by a single method invocation.(¥ŞŠ²8öûÂøÍ-
+Gsquid:S1148®"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8öûÂøÍ-
+}squid:S2293ª"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ¡ÜÃùÿÿÿÿ8öûÂøÍ-
+Gsquid:S1148¥"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8öûÂøÍ-
+msquid:S4042"IUse "java.nio.Files#delete" here for better messages on error conditions.(Îšôşÿÿÿÿ8öûÂøÍ-
+xsquid:S2293õ"YReplace the type specification in this constructor call with the diamond operator ("<>").(™ƒ¿ç8öûÂøÍ-
+xsquid:S2293Ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(àçºÆ8öûÂøÍ-
+”squid:S1319Õ"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(é»ê·úÿÿÿÿ8öûÂøÍ-
+}squid:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìãµ°ùÿÿÿÿ8öûÂøÍ-
+—squid:S1319ò"sThe type of the "objArray" object should be an interface such as "List" rather than the implementation "ArrayList".(ø¨Ğôùÿÿÿÿ8öûÂøÍ-
+}squid:S2293×"YReplace the type specification in this constructor call with the diamond operator ("<>").(û»Åİùÿÿÿÿ8öûÂøÍ-
+}squid:S2293À"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ëÿ¡ïùÿÿÿÿ8öûÂøÍ-
+Psquid:S1135D"2Complete the task associated to this TODO comment.(‡ñÅ¼8öûÂøÍ-
+Jsquid:S1452œ"&Remove usage of generic wildcard type.(Ç ù™üÿÿÿÿ8öûÂøÍ-
+‰squid:S001160"jRename this field "DEFAULT_APP_IMAGEDATA_DIRECTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şß´Ô8öûÂøÍ-
+Nsquid:S2093©"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8öûÂøÍ-
+squid:S1319¾"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¶ÄÛÀ8öûÂøÍ-
+’squid:S4165¯"nRemove this useless assignment; "bitmapCompressed" already holds the assigned value along all execution paths.(ÖÙûŠüÿÿÿÿ8öûÂøÍ-
+”squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(İÜùíøÿÿÿÿ8öûÂøÍ-
+Fsquid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8öûÂøÍ-
+’squid:S1319×"sThe type of the "boolList" object should be an interface such as "List" rather than the implementation "ArrayList".(™ƒ¶ß8öûÂøÍ-

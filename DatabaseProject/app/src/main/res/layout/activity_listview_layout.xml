@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF7FAFC"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/textcontactimage"
+            style="@style/ImageViewContact"
+            android:background="@drawable/circle_img"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:src="@drawable/ic_contact_phone_black_24dp"
+            android:transitionName="example_transition" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textcontactname"
+        style="@style/TextViewNameStyle"
+       android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/textcontactnumber"
+        style="@style/TextViewNumberStyle"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textcontactname"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:gravity="center_vertical" />
+</RelativeLayout>

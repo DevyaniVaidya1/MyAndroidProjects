@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Diary</string>
+    <string name="btnwrite">Write</string>
+    <string name="btndelete">Delete</string>
+    <string name="btnupdate">Update</string>
+    <string name="btnview">View</string>
+    <string name="name"> Name </string>
+    <string name="number"> Number</string>
+    <string name="delete"> Delete</string>
+    <string name="writedata">Write Data</string>
+    <string name="updatedata">Update Data</string>
+    <string name="diaryapp">Diary Application</string>
+</resources>

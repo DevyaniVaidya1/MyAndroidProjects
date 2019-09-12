@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:background="@drawable/list_selector"
+    >
+
+<LinearLayout
+    android:id="@+id/thumbnail"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="3dip"
+    android:layout_alignParentLeft="true"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/image_bg"
+    >
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:src="@mipmap/ic_launcher"
+        />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="@+id/thumbnail"
+        android:text="Main Title Here"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="#000"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:textColor="#000"
+        android:id="@+id/subtilte"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/thumbnail"
+         android:layout_marginTop="1dip"
+         android:text="Sub Title Here"
+        android:textSize="10dip"
+        />
+    <TextView
+        android:id="@+id/title_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/title"
+        android:gravity="right"
+        android:text="5.7.7"
+        android:layout_marginRight="5dip"
+       android:textSize="10dip"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@android:drawable/ic_media_ff"
+     android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Log Gallary</string>
+    <string name="username_hint">Enter UserName</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="btn_login">Log In</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="contactnum">Contact Number</string>
+    <string name="age">Age</string>
+    <string name="btngalary">View Gallary</string>
+    <string name="attempt">Number Of Attempt :5 </string>
+</resources>

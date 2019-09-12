@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a6ada9"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_inner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/half_circle"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="120dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="142dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="129dp"
+            android:src="@drawable/diary" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_below="@+id/img_logo"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="32dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="50dp"
+            android:text="@string/diaryapp"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_main_write"
+        style="@style/buttonstyle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_inner"
+        android:padding="15dp"
+        android:text="@string/btnwrite" />
+
+    <Button
+        android:id="@+id/btn_main_view"
+        style="@style/buttonstyle"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_main_write"
+        android:padding="15dp"
+        android:text="@string/btnview" />
+
+    <Button
+        android:id="@+id/btn_main_update"
+        style="@style/buttonstyle"
+        android:layout_below="@+id/btn_main_view"
+        android:padding="15dp"
+        android:text="@string/btnupdate" />
+
+    <Button
+        android:id="@+id/btn_main_delete"
+        style="@style/buttonstyle"
+        android:layout_below="@+id/btn_main_update"
+        android:padding="15dp"
+        android:text="@string/btndelete" />
+</RelativeLayout>

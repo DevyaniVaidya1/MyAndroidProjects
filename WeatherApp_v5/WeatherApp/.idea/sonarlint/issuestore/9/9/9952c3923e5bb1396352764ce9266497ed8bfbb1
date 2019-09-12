@@ -1,0 +1,5 @@
+
+–squid:S1319)"xThe type of the "weatherCities" object should be an interface such as "List" rather than the implementation "ArrayList".(‘µâ8ª—ÄøÍ-
+psquid:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ç²-8ª—ÄøÍ-
+“squid:S13191"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ë½éûÿÿÿÿ8ª—ÄøÍ-
+€squid:S00116"aRename this field "KEY_WEATHER_ARRAY_LIST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­‘çÓ8ª—ÄøÍ-

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+
+        android:defaultValue="true"
+        android:key="temp_switch"
+        android:summary="Turn this for degree Celcius or Fahrenheit, default is Celsius"
+        android:title="Temperature" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="offline_data"
+        android:summary="Turn this to use offline stored data"
+        android:title="Offline data" />
+</PreferenceScreen>

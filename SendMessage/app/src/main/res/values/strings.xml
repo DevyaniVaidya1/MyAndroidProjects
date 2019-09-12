@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Send Message</string>
+    <string name="message">Write Text Here</string>
+    <string name="third_activity">Next</string>
+    <string name="user_text">welcome to second activity</string>
+    <string name="display">You are in final activity</string>
+    <string name="dial">Open Dialer</string>
+    <string name="open_document">Open Document</string>
+    <string name="camera">Open Camera</string>
+</resources>

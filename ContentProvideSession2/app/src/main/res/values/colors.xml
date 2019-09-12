@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black">#000000</color>
+    <!--<color name="dark">#232526</color>-->
+    <color name="dark">#2F363F</color>
+    <color name="lightdark">#586776</color>
+    <!--<color name="lightdark">#FFA2A5A7</color>-->
+    <color name="recyclerbackground">#FFA2A5A7</color>
+    <color name="back">#FF916E6E</color>
+</resources>

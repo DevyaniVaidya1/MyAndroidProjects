@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+<TextView
+    android:id="@+id/registrationtitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/registrationtityle"
+    android:padding="@dimen/titlepadding"
+    android:textColor="@color/black"
+    android:layout_centerHorizontal="true"
+    android:text="@string/registration"
+    android:textSize="@dimen/titlesize"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/registrationtitle"/>
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintusername"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/et_email"
+        android:layout_margin="@dimen/registrationtextmargin"/>
+
+    <EditText
+        android:id="@+id/et_phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/phonenumber"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/et_name"
+        android:layout_margin="@dimen/registrationtextmargin"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintuserpass"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/et_phonenumber"
+        android:layout_margin="@dimen/registrationtextmargin"/>
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnsave"
+        android:layout_margin="@dimen/btnmargin"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:background="@drawable/button_background_shape"
+        android:layout_below="@+id/et_password"
+        />
+
+
+</RelativeLayout>

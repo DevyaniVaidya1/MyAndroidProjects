@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name"> News </string>
+    <string name="title_item_detail" translatable="false">Item Detail</string>
+</resources>

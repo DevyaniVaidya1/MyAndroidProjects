@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UIApp</string>
+    <string name="username_hint">Enter UserName</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="attempt">Number Of Attempt :5 </string>
+    <string name="btn_login">Log In</string>
+    <string name="date">Enter Date</string>
+    <string name="btn_date">Date Of Birth</string>
+    <string name="btn_time">Time Picker</string>
+</resources>

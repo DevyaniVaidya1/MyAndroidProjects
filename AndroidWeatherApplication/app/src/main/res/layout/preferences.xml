@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferencesScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SwitchPreferenceCompat
+        android:key="C to F"
+        android:title="Enable message Celsius to fahrenheit" />
+
+    <Preference
+        android:key="save offline"
+        android:summary="To Add Data Offline Available"
+        android:title="Add Offline" />
+</PreferencesScreen>

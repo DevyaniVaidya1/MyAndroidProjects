@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="14dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="result"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <EditText
+        android:id="@+id/et_num1"
+        android:layout_width="143dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="number1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <EditText
+        android:id="@+id/et_num2"
+        android:layout_width="143dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="number2"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="152dp"
+        android:layout_height="63dp"
+        android:onClick="onButtonClick"
+        android:text="add"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <ImageView
+        android:id="@+id/handshake_img"
+        android:layout_width="280dp"
+        android:layout_height="224dp"
+        android:src="@drawable/handshack" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view_image" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share_img" />
+</LinearLayout>

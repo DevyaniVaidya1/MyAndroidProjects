@@ -1,0 +1,13 @@
+
+\squid:S1155Â">Use isEmpty() to check whether the collection is empty or not.(Áø¯?8½ö¿ŒÎ-
+isquid:CommentedOutCodeLineV"<This block of commented-out lines of code should be removed.(Üˆ‘¶8¼…šŒÎ-
+nsquid:S1301o"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8œ²õ‹Î-
+šsquid:S1319Ž"{The type of the "weatherItemsList" object should be an interface such as "List" rather than the implementation "ArrayList".(Ûñæ8ÐŽµøÍ-
+Fsquid:S1604D"(Make this anonymous inner class a lambda(™ÇÞ”8ÐŽµøÍ-
+bsquid:S1155Ü">Use isEmpty() to check whether the collection is empty or not.(í¶¦™ÿÿÿÿÿ8½ö¿ŒÎ-
+isquid:CommentedOutCodeLineu"<This block of commented-out lines of code should be removed.(Ú†Æá8¬ÄúŒÎ-
+Ssquid:S1066Ü"/Merge this if statement with the enclosing one.(í¶¦™ÿÿÿÿÿ8½ö¿ŒÎ-
+¤squid:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷Š¶•ýÿÿÿÿ8ÂÑ¶øÍ-
+vsquid:S3776¾"RRefactor this method to reduce its Cognitive Complexity from 88 to the 15 allowed.(ø’Û¯üÿÿÿÿ8½ö¿ŒÎ-
+squid:S1450*"aRemove the "mFabAddWeatherItem" field and declare it as a local variable in the relevant methods.(ÍáÄÝ8ÐŽµøÍ-
+jsquid:CommentedOutCodeLineô"<This block of commented-out lines of code should be removed.(†Åšö8½ö¿ŒÎ-

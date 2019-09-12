@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_dispay_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:hint="Welcome"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:ems="10"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etPasssword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintTop_toBottomOf="@+id/etName" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="114dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin"
+        android:text="Log IN"
+
+        />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/margin"
+        android:ems="10"
+        android:text="@string/attemt" />
+    <TextView
+        android:id="@+id/tv_Registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:textSize="@dimen/TextSizeRegister"
+        android:textAlignment="center"
+        android:layout_margin="@dimen/margin"
+        />
+
+</LinearLayout>

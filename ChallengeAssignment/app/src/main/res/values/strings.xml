@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ChallengeAssignment</string>
+    <string name="btnsubmit"> Submit</string>
+    <string name="login">Log In</string>
+    <string name="hintusername">Enter UserName</string>
+    <string name="hintuserpass">Enter Password</string>
+    <string name="registration">Registration</string>
+    <string name="email">Enter Email Address</string>
+    <string name="phonenumber">Enter Phone Number</string>
+    <string name="btnsave">Save</string>
+    <string name="registrationlink">New user ?Register</string>
+</resources>

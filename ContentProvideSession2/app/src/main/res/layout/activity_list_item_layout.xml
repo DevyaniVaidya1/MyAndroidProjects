@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="#FFF7FAFC"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/textcontactimage"
+            style="@style/ImageViewContact"
+            android:background="@drawable/circle_img"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:transitionName="example_transition" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textcontactname"
+        style="@style/TextViewNameStyle"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:gravity="center_vertical" />
+
+
+</RelativeLayout>

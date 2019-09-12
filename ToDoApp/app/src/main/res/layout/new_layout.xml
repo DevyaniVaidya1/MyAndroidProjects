@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/backgroud"
+    >
+
+
+    <ImageView
+        android:id="@+id/light"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:src="@drawable/light"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Bulb"
+        android:layout_below="@+id/light"
+        android:layout_marginTop="@dimen/margin_text_layout"
+        android:textSize="@dimen/text_size"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

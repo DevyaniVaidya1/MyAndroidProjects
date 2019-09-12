@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Alarm Ringing</string>
+    <string name="btnring">Start Alarm </string>
+    <string name="alarmpagetitle">Ring Alarm  Application</string>
+    <string name="stopalarm">Stop Alarm</string>
+
+</resources>
