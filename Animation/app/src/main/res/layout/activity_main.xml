@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AnimateBoll">
+
+    <ImageView
+        android:id="@+id/iv_football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/dp_5"
+        android:src="@drawable/sports" />
+
+    <LinearLayout
+        android:id="@+id/linear_child_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_rotate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_4"
+            android:padding="@dimen/dp_5"
+            android:text="@string/rotate"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_20" />
+
+        <Button
+            android:id="@+id/btn_scale"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:text="@string/scale"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_20" />
+
+        <Button
+            android:id="@+id/btn_translate"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:text="@string/translate"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_20" />
+
+        <Button
+            android:id="@+id/btn_alpha"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="5dp"
+            android:text="@string/alpha"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_20" />
+    </LinearLayout>
+</RelativeLayout>

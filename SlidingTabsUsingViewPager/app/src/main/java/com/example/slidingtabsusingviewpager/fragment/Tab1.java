@@ -75,7 +75,6 @@ public class Tab1 extends Fragment {
                 Log.d(TAG, "onResponse: " + mMovieList.get(0).getName());
                 Log.d(TAG, "size of array list " + mMovieList.size());
                 setRecyclerViewAndAdapter();
-
             }
 
             @Override
