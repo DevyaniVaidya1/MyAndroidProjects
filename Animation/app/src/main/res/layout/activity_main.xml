@@ -20,7 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/dp_5"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@color/colorAccent">
 
         <Button
             android:id="@+id/btn_rotate"
@@ -66,4 +67,16 @@
             android:textColor="@color/white"
             android:textSize="@dimen/dp_20" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/move_to_interpolator"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_20"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/dp_5"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>

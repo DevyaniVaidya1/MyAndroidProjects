@@ -4,4 +4,6 @@
     <string name="scale">Scale</string>
     <string name="translate">Translate</string>
     <string name="alpha">Alpha</string>
+    <string name="move_to_interpolator">Move to Interpolator</string>
+    <string name="load">load</string>
 </resources>
